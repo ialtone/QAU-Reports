@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ialtone</title>
+    <link rel="shortcut icon" href="https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床/圆角favicon.3qbl0de8gy00.webp" type="image/x-icon">
+</head>
+<body>
+<form action="" method="post">
+        这是您所在的国家：
+        <input type="text" name="Country" value="中国" required>
+        <br>
+        这是您所在的省份：
+        <input type="text" name="Province" value="山东省" required>
+        <br>
+        这是您所在的市：
+        <input type="text" name="City" value="青岛市" required>
+        <br>
+        这是您所在的县市区：
+        <input type="text" name="County" value="城阳区" required>
+        <br>
+        这是您所在的街道（道路）：
+        <input type="text" name="street_number" value="青岛农业大学" required>
+        <br>
+        这是您的微信定位地址：
+        <input type="text" name="CurrentPosition" value="山东省青岛市城阳区青岛农业大学" required>
+        <br>
+        这是您第一针疫苗的接种日期（若未接种则留空）：
+        <input type="text" name="FirstStitchDate" value="xxxx-xx-xx" required>
+        <br>
+        这是您第二针疫苗的接种日期（若未接种则留空）：
+        <input type="text" name="TwoStitchDate" value="xxxx-xx-xx" required>
+        <br>
+        这是您第三针疫苗的接种日期（若未接种则留空）：
+        <input type="text" name="ThreeStitchDate" value="xxxx-xx-xx" required>
+        <br>
+        这是您的疫苗接种次数：
+{#        <input type="text" name="Vaccination" value="xxxx-xx-xx" required>#}
+        <select name="Vaccination">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+        </select>
+        <br>
+        本人或共同居住人是否有下列情况：
+        {#    <input type="text" name="BRHGTJZRSFYXLQKOne" value="0" required>#}
+        <select name="BRHGTJZRSFYXLQKOne">
+            <option value="0" selected>无</option>
+            <option value="1">确诊病例</option>
+            <option value="2">疑似病例</option>
+            <option value="3">无症状病例</option>
+        </select>
+        <br>
+        本人或共同居住人是否有下列情况：
+        {#    <input type="text" name="BRHGTJZRSFYXLQKTwo" value="0" required>#}
+        <select name="BRHGTJZRSFYXLQKTwo">
+            <option value="0" selected>无</option>
+            <option value="1">密接</option>
+            <option value="2">伴随</option>
+            <option value="3">中高风险地区人员</option>
+            <option value="4">封控区溢出人员</option>
+        </select>
+        <br>
+        所在社区21天内是否发生疫情：
+        {#    <input type="text" name="SZSQTNSFFSYQ" value="0" required>#}
+        <select name="SZSQTNSFFSYQ">
+            <option value="0" selected>否</option>
+            <option value="1">是</option>
+        </select>
+        <br>
+        旅居史或接触史：
+        {#    <input type="text" name="LJSHJCS" value="0" required>#}
+        <select name="LJSHJCS">
+            <option value="0" selected>否</option>
+            <option value="1">是</option>
+        </select>
+        <br>
+        本人或共同居住人是否有以下症状未痊愈：
+        {#    <input type="text" name="BRHGTJZRSFYYXZZWQY" value="0" required>#}
+        <select name="BRHGTJZRSFYYXZZWQY">
+            <option value="0" selected>无</option>
+            <option value="1">咳嗽或咽痛</option>
+            <option value="2">发热</option>
+            <option value="3">乏力肌肉酸痛胸闷</option>
+        </select>
+        <br>
+        今日是否从外省反鲁：
+        {#    <input type="text" name="JRSFCSWFL" value="0" required>#}
+        <select name="JRSFCSWFL">
+            <option value="0" selected>否</option>
+            <option value="1">是</option>
+        </select>
+        <br>
+        今日是否从省内其他地级市返青：
+        {#    <input type="text" name="JRSFCSNQTDJSFQ" value="0" required>#}
+        <select name="JRSFCSNQTDJSFQ">
+            <option value="0" selected>否</option>
+            <option value="1">是</option>
+        </select>
+        <br>
+        今日行程：
+        {#    <input type="text" name="TodaySchedule" value="0" required>#}
+        <select name="TodaySchedule">
+            <option value="0" selected>无外出</option>
+            <option value="1">有外出</option>
+        </select>
+        <br>
+        今日体温：
+        {#    <input type="text" name="DayTemperature" value="4" required>#}
+        <select name="DayTemperature">
+            <option value="0">36以下</option>
+            <option value="1">36-36.5</option>
+            <option value="2" selected>36.6-36.9</option>
+            <option value="3">37-37.2</option>
+            <option value="4">37.3-37.9</option>
+            <option value="5">38-38.5</option>
+            <option value="6">38.6-39</option>
+            <option value="7">39-40</option>
+            <option value="8">40以上</option>
+        </select>
+        <br>
+        备注：
+        <input type="text" name="Remark" value="">
+        <br>
+        外出具体行程，如无行程则留空：
+        <input type="text" name="TodayScheduleOther" value="">
+        <br>
+        今日是否在校：
+        {#    <input type="text" name="IsInSchoolOfDay" value="1" required>#}
+        <select name="IsInSchoolOfDay">
+            <option value="0">否</option>
+            <option value="1" selected>是</option>
+        </select>
+        <br>
+        今日是否进行核酸检测：
+        {#    <input type="text" name="ISNATDay" value="1" required>#}
+        <select name="ISNATDay">
+            <option value="0">未检测</option>
+            <option value="1" selected>校内检测</option>
+            <option value="2">校外检测</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        这个参数是您的学工号：
+        <input type="text" name="UserName" value="" required>
+        <br>
+        这个参数是您在登录每日上报系统是所使用的密码：
+        <input type="text" name="UserPassword" value="" required>
+        <br>
+        是否开启微信server酱通知：
+        {#    <input type="text" name="Server" value="0">#}
+        <select name="Server">
+            <option value="0" selected>关闭</option>
+            <option value="1">开启</option>
+        </select>
+        <br>
+        这里填入您的Server key：
+        <input type="text" name="ServerKey" value="">
+        <br>
+        <input type="submit" name="提交">
+</body>
+</html>
