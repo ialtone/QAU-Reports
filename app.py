@@ -34,8 +34,8 @@ def hello_world():  # put application's code here
         IsInSchoolOfDay = request.form.get('IsInSchoolOfDay')
         ISNATDay = request.form.get('ISNATDay')
         Server = request.form.get('Server')
-        UserName = request.form.get('UserName')
-        UserPassword = request.form.get('UserPassword')
+        username = request.form.get('username')
+        userpassword = request.form.get('userpassword')
         ServerKey = request.form.get('ServerKey')
     ConfigData = {
         "cookies":{"insert_cookie":"29594869"},
@@ -70,8 +70,8 @@ def hello_world():  # put application's code here
     UserData = {
         "Server":Server,
         "Log":"1",
-        "UserName":UserName,
-        "UserPassword":UserPassword,
+        "username":username,
+        "userpassword":userpassword,
         "ServerKey":ServerKey
     }
     config = "config.json"

@@ -1,0 +1,7 @@
+
+运行时间：2022-09-13
+上报状态：
+	今日您已经上报，无需重复上报
+问卷内容：
+	{'Id': '', 'ISConfirm': None, 'NowDate': None, 'NowProvince': '', 'NowCity': '', 'NowCountry': '', 'CurrentPosition': '', 'Country': '中国', 'Province': '山东省', 'City': '青岛市', 'County': '', 'IsDel': None, 'UserType': None, 'FollowingCon': None, 'FollowDate': None, 'ContactPerson': None, 'ContactDate': None, 'Community': None, 'CommunityDate': None, 'Health': None, 'HealthRemark': '', 'GoToEpidemic': None, 'GoToDate': None, 'IsHeat': None, 'DayTemperature': 2, 'Remark': '', 'Practice': None, 'PracticeAddress': '', 'PracticeRemark': '', 'PracticeTeacher': '', 'IsColdChain': None, 'IsLowRiskPerson': None, 'Vaccination': 3, 'FirstStitchDate': '2021-07-01T00:00:00', 'TwoStitchDate': '2021-07-22T00:00:00', 'ThreeStitchDate': '2022-01-23T00:00:00', 'TodaySchedule': 0, 'TodayScheduleOther': '', 'BRHGTJZRSFYXLQKOne': 0, 'BRHGTJZRSFYXLQKTwo': 0, 'SZSQTNSFFSYQ': 0, 'LJSHJCS': 0, 'BRHGTJZRSFYYXZZWQY': 0, 'JRSFCSWFL': 0, 'JRSFCSNQTDJSFQ': 0, 'LoginName': '20210300393', 'TrueName': '于尚锟', 'IsInSchool': None, 'title': '', 'desc': '', 'IsInSchoolOfDay': 1, 'ISNATDay': 1}
+
