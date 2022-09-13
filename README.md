@@ -7,5 +7,5 @@
 1、Python3.10(此脚本由python3.10编写，其他版本未做测试)  
 2、安装依赖库  
 ```pip install requests```  
-```pip install pytz```  
+```pip install flask```  
 待完善
