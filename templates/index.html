@@ -110,8 +110,8 @@
         {#    <input type="text" name="DayTemperature" value="4" required>#}
         <select name="DayTemperature">
             <option value="0">36以下</option>
-            <option value="1">36-37.2</option>
-            <option value="2" selected>37.3-38</option>
+            <option value="1" selected>36-37.2</option>
+            <option value="2">37.3-38</option>
             <option value="3">38以上</option>
         </select>
         <br>
@@ -146,15 +146,15 @@
         这个参数是您在登录每日上报系统是所使用的密码：
         <input type="text" name="userpassword" value="" required>
         <br>
-        是否开启微信server酱通知：
-        {#    <input type="text" name="Server" value="0">#}
-        <select name="Server">
+        是否开启微信PushPlus通知：
+        {#    <input type="text" name="PushPlus" value="0">#}
+        <select name="PushPlus">
             <option value="0" selected>关闭</option>
             <option value="1">开启</option>
         </select>
         <br>
-        这里填入您的Server key：
-        <input type="text" name="ServerKey" value="">
+        这里填入您的PushPlus的token：
+        <input type="text" name="PushPlustoken" value="">
         <br>
         <input type="submit" name="提交">
 </body>

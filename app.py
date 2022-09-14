@@ -5,8 +5,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
 @app.route('/',methods=['GET','POST'])
-def hello_world():  # put application's code here
-    # return 'Hello World!'
+def hello_world():  
     if request.method == 'GET':
         return render_template('index.html')
     if request.method == 'POST':
@@ -33,10 +32,10 @@ def hello_world():  # put application's code here
         TodayScheduleOther = request.form.get('TodayScheduleOther')
         IsInSchoolOfDay = request.form.get('IsInSchoolOfDay')
         ISNATDay = request.form.get('ISNATDay')
-        Server = request.form.get('Server')
+        PushPlus = request.form.get('PushPlus')
         username = request.form.get('username')
         userpassword = request.form.get('userpassword')
-        ServerKey = request.form.get('ServerKey')
+        PushPlustoken = request.form.get('PushPlustoken')
     ConfigData = {
         "cookies":{"insert_cookie":"29594869"},
         "NowDate":"",
@@ -68,11 +67,11 @@ def hello_world():  # put application's code here
         "ISNATDay": ISNATDay
     }
     UserData = {
-        "Server":Server,
+        "PushPlus":PushPlus,
         "Log":"1",
         "username":username,
         "userpassword":userpassword,
-        "ServerKey":ServerKey
+        "PushPlustoken":PushPlustoken
     }
     config = "config.json"
     user = "user.json"
