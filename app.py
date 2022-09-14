@@ -76,9 +76,9 @@ def hello_world():
     config = "config.json"
     user = "user.json"
     with open(config,'w',encoding='utf-8') as f1:
-        json.dump(ConfigData,f1,ensure_ascii=False)
+        json.dump(ConfigData,f1,ensure_ascii=False,indent=4)
     with open(user,'w',encoding='utf-8') as f:
-        json.dump(UserData,f,ensure_ascii=False)
+        json.dump(UserData,f,ensure_ascii=False,indent=4)
     return "信息填写完毕！"
 if __name__ == '__main__':
     app.run()
