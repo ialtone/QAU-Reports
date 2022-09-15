@@ -77,8 +77,12 @@ def hello_world():
     user = "user.json"
     with open(config,'w',encoding='utf-8') as f1:
         json.dump(ConfigData,f1,ensure_ascii=False,indent=4)
-    with open(user,'w',encoding='utf-8') as f:
-        json.dump(UserData,f,ensure_ascii=False,indent=4)
-    return "信息填写完毕！"
+    with open(user,'w',encoding='utf-8') as f2:
+        json.dump(UserData,f2,ensure_ascii=False,indent=4)
+    with open('config.json','r',encoding='utf-8') as f3:
+        line1 = f3.read()
+    with open('user.json','r',encoding='utf-8') as f4:
+        line2 = f4.read()
+    return '请将如下信息复制到config.json:<br><br><br>'+line1+'<br><br><br><br>'+'请将如下信息复制到user.json:<br><br><br>'+line2
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0',port=5000)
