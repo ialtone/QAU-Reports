@@ -137,7 +137,7 @@ if (__name__ == '__main__'):
             pass
 
         if (User['PushPlus'] == '1'):
-            # 调用server酱
+            # 调用PushPlus
             broadcast.Server()
         else:
             pass
