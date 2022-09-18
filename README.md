@@ -31,7 +31,7 @@ PushPlus的token获取方式为：
 打开之后点击登录，再点击开发设置，再点击Token即可一键复制您的token。  
 信息填写完成之后点击提交按钮将会跳转到如下界面。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917154148.png)  
-将上面红框里的内容复制到阿里云函数在线IDE中刚刚打开的config.json和User.json中并保存。  
+将上面红框里的内容分别复制到阿里云函数在线IDE中刚刚打开的config.json和User.json中并保存 ***(config.json和User.json里本来的内容直接删除，复制新的覆盖即可)***。  
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917154453.png)  
 确保刚刚的内容复制过去之后点击部署代码，再点击测试代码，如果您打开微信PushPlus的话约五秒钟后将会收到通知，出现'每日上报失败！'的提醒请您不要惊慌，这是因为您今天已经上报。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917154642.png)  
