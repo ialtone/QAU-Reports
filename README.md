@@ -9,6 +9,7 @@
 点击进入[阿里函数计算官网](https://fcnext.console.aliyun.com/overview)
 ，登录后进入控制台。  
 登录之后点击**服务及函数**，再点**创建服务**，填上名称点创建即可。  
+*首次使用需要开通确认，点开通即可，阿里云函数每月为您提供一定的免费额度，足够我们运行QAU-Reports。*  
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917150818.png)  
 点击**创建函数**。  
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917151446.png)  
@@ -35,6 +36,6 @@ PushPlus的token获取方式为：
 确保刚刚的内容复制过去之后点击部署代码，再点击测试代码，如果您打开微信PushPlus的话约五秒钟后将会收到通知，出现'每日上报失败！'的提醒请您不要惊慌，这是因为您今天已经上报。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917154642.png)  
 当完成上述所有步骤后，恭喜您成功部署了QAU-Reports。  
-觉得项目对您有用的话，您的Stars将是对我最大的支持。  
+觉得项目对您有用的话，您的Star将是对我最大的支持。  
 ## 部署到服务器  
 待完善。
