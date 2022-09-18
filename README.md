@@ -13,7 +13,7 @@
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917150818.png)  
 点击**创建函数**。  
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917151446.png)  
-**创建方式**选择**从零创建**，**运行环境**选择**python**，**代码上传方式**选择**通过ZIP包上传代码**，然后从[Releases](https://github.com/ialtone/QAU-Reports/releases/download/1.0/QAU-Reposts.1.0.zip)(点击可跳转下载)压缩包上传即可。
+**创建方式**选择**从零创建**，**运行环境**选择**python**，**代码上传方式**选择**通过ZIP包上传代码**，然后从[Releases](https://github.com/ialtone/QAU-Reports/releases/download/1.0/QAU-Reports1.0.zip)(点击可跳转下载)压缩包上传即可。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917151707.png)  
 触发器类型选择定时触发器，触发方式选择指定时间，时区选择Asia/Shanghai(北京时间)，指定一个时间后点击创建。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917152051.png)  
