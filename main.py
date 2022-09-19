@@ -1,6 +1,6 @@
 import requests
 import json
-import time
+import datetime
 
 # 这个类用于获取上报所需信息
 
@@ -15,8 +15,9 @@ class GetContent():
         with open('config.json', 'r', encoding='UTF-8') as f:
             config0 = json.load(f)
         # 提供日期
+        now = datetime.datetime.utcfromtimestamp(datetime.datetime.timestamp(datetime.datetime.now())) + datetime.timedelta(hours=8)
         config0['NowDate'] = '%s' % (
-            time.strftime("%Y-%m-%d", time.localtime()))
+            now.strftime("%Y-%m-%d"))
         config = json.dumps(config0, ensure_ascii=False)
         return config
 
@@ -100,7 +101,7 @@ class Broadcast():
     def Log(self):
         # 在本地保存日志
         log = '\n'
-        log += u'运行时间：%s\n' % time.strftime("%Y-%m-%d", time.localtime())
+        log += u'运行时间：%s\n' % datetime.datetime.utcfromtimestamp(datetime.datetime.timestamp(datetime.datetime.now())) + datetime.timedelta(hours=8)
         log += u'上报状态：\n\t%s\n' % self.case
         log += u'问卷内容：\n\t%s\n' % self.qnr
         log += u'\n'
