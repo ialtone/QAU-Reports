@@ -84,6 +84,6 @@ def main():
         line1 = f3.read()
     with open('user.json','r',encoding='utf-8') as f4:
         line2 = f4.read()
-    return '请将如下信息复制到config.json:<br><br><br>'+line1+'<br><br><br><br>'+'请将如下信息复制到user.json:<br><br><br>'+line2
+    return render_template('info.html',config = line1,user = line2)
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=5000)
