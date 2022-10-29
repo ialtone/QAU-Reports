@@ -5,7 +5,7 @@
 部分代码来源于[QAU-Auto-Information-Report](https://github.com/alexhoshina/QAU-Auto-Information-Report)
 
 # 使用说明
-## 使用ialtone自动部署
+## 使用ialtone云平台自动部署
 将您的信息填入到[http://qau.ialtone.xyz](http://qau.ialtone.xyz)即可，出现学号成功写入数据库证明您已成功写入。
 ## 部署到阿里云函数服务平台
 点击进入[阿里函数计算官网](https://fcnext.console.aliyun.com/overview)
@@ -21,7 +21,7 @@
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917152051.png)  
 等待在线IDE启动后，打开config.json和User.json两个文件等待编辑。
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917152458.png)  
-进入[QAU自动每日上报信息填写](http://qau.ialtone.xyz:8080/)(点击可跳转)，**红框框出来的项目切记填写**，其他信息可根据您的情况自行更改，也可保持默认。  
+进入[QAU自动每日上报信息填写](http://qau.ialtone.xyz:8080/)(点击可跳转,此网站暂时停止使用)，**红框框出来的项目切记填写**，其他信息可根据您的情况自行更改，也可保持默认。  
 ![](https://cdn.staticaly.com/gh/ialtone/ialtone@master/图床20220917152612.png)  
 如果您想要每天微信通知您自动每日信息上报是否运行成功的话，请将微信PushPlus通知开关打开，并填写您PushPlus的token。  
 PushPlus的token获取方式为：  
