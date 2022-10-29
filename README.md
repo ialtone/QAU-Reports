@@ -5,6 +5,8 @@
 部分代码来源于[QAU-Auto-Information-Report](https://github.com/alexhoshina/QAU-Auto-Information-Report)
 
 # 使用说明
+## 使用ialtone自动部署
+将您的信息填入到[http://qau.ialtone.xyz](http://qau.ialtone.xyz)即可，出现学号成功写入数据库证明您已成功写入。
 ## 部署到阿里云函数服务平台
 点击进入[阿里函数计算官网](https://fcnext.console.aliyun.com/overview)
 ，登录后进入控制台。  
